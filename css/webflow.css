@@ -588,6 +588,13 @@ textarea.w-select {
   .w-container {
     max-width: none;
   }
+  .animationdiv p {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+  .animationdiv p {
+    display: block;
+  }
   .w-hidden-main {
     display: inherit !important;
   }
@@ -1638,6 +1645,7 @@ textarea.w-select {
   .w-tab-link {
     display: block;
   }
+
 }
 .w-ix-emptyfix:after {
   content: "";
@@ -1691,6 +1699,7 @@ textarea.w-select {
   content: '_';
   animation: blinking 1.2s infinite;
 }
+
 
 
 
