@@ -60,3 +60,21 @@ function addNextWord() {
     
   setTimeout(addNextWord, 200);
 }
+
+
+$(window).scroll(function () {
+if ($(window).scrollTop() >= 500) {
+$('.navbar-3').addClass('bluenav')
+} else {
+$('.navbar-3').removeClass('bluenav')
+}
+});
+
+
+
+
+
+
+
+
+
