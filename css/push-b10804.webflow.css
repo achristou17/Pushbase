@@ -1496,7 +1496,6 @@ figcaption {
   top: -56px;
   display: block;
   width: auto;
-  max-width: none;
   margin-top: 47px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
@@ -1752,7 +1751,8 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   }
   .image-4.phone {
     left: -267px;
-    width: 350px;
+    width: auto;
+    height: auto;
     margin-top: 75px;
     margin-left: -70px;
     -webkit-box-flex: 0;
