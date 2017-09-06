@@ -1226,7 +1226,6 @@ figcaption {
   display: block;
   overflow: visible;
   max-width: 50%;
-  margin-top: 19px;
   margin-left: 0px;
   padding-top: 1px;
   float: none;
@@ -1246,7 +1245,7 @@ figcaption {
 .image-3.useropt {
   display: block;
   max-width: 50%;
-  margin-top: 0px;
+  margin-top: 18px;
   margin-right: 0px;
   float: right;
   -webkit-transform: translate(0px, 0px) rotate(0deg);
@@ -1270,7 +1269,7 @@ figcaption {
   transform: scale(1.01);
 }
 
-.image-3.signoffexample {
+.image-3.dash {
   border: 0px none #333;
   box-shadow: 9px 7px 50px -20px #000;
   -webkit-transition: -webkit-transform 400ms ease;
@@ -1281,12 +1280,12 @@ figcaption {
   transform-style: preserve-3d;
 }
 
-.image-3.signoffexample:hover {
+.image-3.dash:hover {
   -webkit-transform: rotateX(0deg) rotateY(1.3deg) rotateZ(0deg);
   transform: rotateX(0deg) rotateY(1.3deg) rotateZ(0deg);
 }
 
-.image-3.statsdash {
+.image-3.stats {
   box-shadow: -11px 0 50px -16px #000;
   -webkit-transition: -webkit-transform 400ms ease;
   transition: -webkit-transform 400ms ease;
@@ -1296,12 +1295,13 @@ figcaption {
   transform-style: preserve-3d;
 }
 
-.image-3.statsdash:hover {
+.image-3.stats:hover {
   -webkit-transform: rotateX(0deg) rotateY(-1.3deg) rotateZ(0deg);
   transform: rotateX(0deg) rotateY(-1.3deg) rotateZ(0deg);
 }
 
 .image-3.flow {
+  margin-top: 12px;
   margin-left: 30px;
   -webkit-transition: -webkit-transform 400ms ease;
   transition: -webkit-transform 400ms ease;
@@ -1969,6 +1969,19 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   .button.tab {
     margin-bottom: 9px;
   }
+  .mobhero {
+    margin-top: -40px;
+  }
+.dash {
+  margin-top: 50px;
+  max-width: 200%;
+}
+
+
+
+.stats {
+  max-width: 130%;
+}
   .section {
     padding-bottom: 0px;
   }
@@ -2094,9 +2107,9 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-  .image-3 {
-    margin-top: 64px;
+  } 
+  .image-3.stats{
+    margin-top: 0px;
   }
   .image-3.creativeimg1 {
     max-width: 90%;
@@ -2120,6 +2133,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   .image-3.flow {
     max-width: 140%;
     margin-left: 0px;
+    margin-top: 50px;
   }
   .button-3.buttonscale.herobutton {
     margin-right: 0px;
@@ -2285,4 +2299,12 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   src: url('../fonts/AvenirNextLTPro-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
+}
+
+.dash {
+  width: 100%
+}
+
+.brandm {
+  margin-top: 45px;
 }
