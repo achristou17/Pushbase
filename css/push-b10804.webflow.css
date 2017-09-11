@@ -1302,11 +1302,11 @@ figcaption {
 
 .image-3.flow {
   margin-top: 12px;
-  margin-left: 30px;
   -webkit-transition: -webkit-transform 400ms ease;
   transition: -webkit-transform 400ms ease;
   transition: transform 400ms ease;
   transition: transform 400ms ease, -webkit-transform 400ms ease;
+  max-width: 80%;
 }
 
 .image-3.flow:hover {
@@ -1317,7 +1317,6 @@ figcaption {
 
 .container-6 {
   padding-top: 40px;
-  padding-bottom: 40px;
   -webkit-perspective: 800px;
   perspective: 800px;
 }
